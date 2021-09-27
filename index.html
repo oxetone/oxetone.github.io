@@ -98,7 +98,7 @@
 				// 这里写推送文字要做的事情
 			}
 		}
-		xhr.open(method, url + '推送消息分组?group=Space内容：' + value )
+		xhr.open(method, url + 'Space/内容：' + value + '?group=Space?sound=choo' )
 		xhr.send()
 			return
 		}
@@ -116,7 +116,7 @@
 				// 这里写推送文字要做的事情
 			}
 		}
-		xhr.open(method, url + '/' + '来了')
+		xhr.open(method, url + 'ta/来了' + '?group=Space')
 		xhr.send()
 		alert('Hi！')
 		window.location.href= 'https://www.ylovewh.space/hi/'
